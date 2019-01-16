@@ -1,6 +1,7 @@
 # swoole-docker
 仅为自己常用的swoole配套工具包，专门swoole 2.x版本出的，请别用错了，fashop的swoole版本支持1.x和2.x
 
+
 # 启动
 > 建议用一个镜像启动两个容器：测试和部署
 ### 拉取镜像
