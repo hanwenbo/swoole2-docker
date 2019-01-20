@@ -80,7 +80,5 @@ RUN wget https://github.com/swoole/swoole-src/archive/v${SWOOLE_VERSION}.tar.gz 
     && rm -r swoole \
     && docker-php-ext-enable swoole
 
-ADD . /var/www/project
-
 WORKDIR /var/www/project
 
